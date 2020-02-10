@@ -37,6 +37,14 @@ export class MenuComponent implements OnInit {
   }
 
   /**
+   * @description Metodo encargado de direccionar al componente de crear persona
+   * @author Diego Fernando Alvarez Silva <dalvarez@heinsohn.com.co>
+   */
+  public navegarGestionarPersona(): void {
+    this.router.navigate(['crear-persona']);
+  }
+  
+  /**
    * @description Metodo encargado de direccionar al componente de gestionar comic
    * @author Diego Fernando Alvarez Silva <dalvarez@heinsohn.com.co>
    */
